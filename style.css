@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color:#DADCDF ;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+/* NAV BAR */
+nav {
+    display: flex;
+    background-color: #363543;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #DADCDF;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+nav ul li a:hover {
+    color: white;
+    transition: all 0.5s;
+}
+
+/* Menu toogle */
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer; 
+    
+}
+
+
+/* Responsice breakpoint */
+
+/* Ukuran hp */
+
+@media screen and (max-width: 576px) {
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50vw;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: #363543;
+        z-index: -1;
+        transform: translateX(110%);
+        transition: all 1s;
+        box-shadow: black -5px 5px 5px;
+    }
+
+    nav .menu-active {
+        transform: translateX(0);
+    }
+
+    #close-nav-btn {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+}
+
+/* Ukuran tablet */
+@media screen and (max-width: 800px) {
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        width: 50vw;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: #363543;
+        z-index: -1;
+        transform: translateX(110%);
+        transition: all 1s;
+        box-shadow: black -5px 5px 5px;
+    }
+
+    nav .menu-active {
+        transform: translateX(0);
+    }
+
+    #close-nav-btn {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
