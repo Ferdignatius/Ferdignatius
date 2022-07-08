@@ -1,9 +1,9 @@
 - 👋 Hi, I’m Ferdinand Ignatius Surya
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning Python, Kotlin, Javascript, HTML, CSS
+- 👀 I’m interested in Software Enginering and Developing
+- 🌱 I’m currently learning Kotlin, Javascript, HTML, CSS
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me :
-    IG @ferdignatius
+- 📫 How to reach me : 
+- Instagram : @ferdignatius
       
 
 
