@@ -10,14 +10,14 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav>
+    <nav id="nav">
         <div class="logo">
             <h3>Ferdignatius</h2>
         </div>
 
         <ul class="">
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="#nav">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="">Service</a></li>
             <li><a href="">Portofolio</a></li>
         </ul>
@@ -28,7 +28,7 @@
         </div>
     </nav>
 
-    <section class="header">
+    <section class="header" id="header">
         <div class="text">
             <h2>I'm</h2>
             <h1>Ferdinand Ignatius Surya</h1>
@@ -40,7 +40,7 @@
     </section>
 
     <!-- ABOUT -->
-    <section class="about">
+    <section class="about" id="about">
         <img src="" alt="">
         <div class="text">
             <h1>About</h1>
@@ -49,31 +49,43 @@
         </div>
     </section>
 
-    <!-- SERVICES -->
+    <div class="coming-soon">
+        <h3>Coming Soon...</h3>
+    </div>
+
+    <!-- SERVICES
+    <section class="card">
+    <div class="text">
+        <h1>Services</h1>
+        <span class="line-decoration"></span>
+    </div>
+
     <section class="services">
-        <div class="card-service">
-            <div class="bgImg">
-                <img src="icon/mobileDevIcon.svg" alt="">
-            </div>
-            <div class="content-service">
-                <h3>Mobile Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque inventore recusandae quae necessitatibus provident, aliquam cupiditate numquam consequatur nulla pariatur, unde fugiat ad ducimus ut sed in error a sapiente?</p>
-            </div>
-        </div>
-        <div class="card-service">
+        <div class="container">
             <div class="card-service">
-                <div class="bgImg">
+                <div class="imgBox" data-text="Mobile Dev">
+                    <img src="icon/mobileDevIcon.svg" alt="">
+                </div>
+                <div class="content-service">
+                    <h3>Mobile Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque inventore recusandae quae necessitatibus provident, aliquam cupiditate numquam consequatur nulla pariatur, unde fugiat ad ducimus ut sed in error a sapiente?</p>
+                </div>
+            </div>
+            <div class="card-service">
+                <div class="imgBox" data-text="Website Dev">
                     <img src="icon/websiteDevIcon.svg" alt="">
                 </div>
             <div class="content-service">
                 <h3>Website Development</h3>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam unde accusantium doloribus minus a quae modi ea cumque quia aperiam non, rerum, velit similique atque maiores eum et molestiae.</p> -->
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis veniam unde accusantium doloribus minus a quae modi ea cumque quia aperiam non, rerum, velit similique atque maiores eum et molestiae.</p>
             </div>
         </div>
     </section>
+</section> -->
 
 
     <!-- JAVASCRIPT -->
-    <script src="nav.js"></script>
+    <script src="JS/nav.js"></script>
+    <script src="JS/cardImg.js"></script>
 </body>
 </html>
